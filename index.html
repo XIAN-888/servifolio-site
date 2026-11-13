@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Help with photo reports, PDFs, purchases and editable backups in Servifolio for iPhone.">
+  <meta name="description" content="Help with repeat visits, reference and current photos, returnable client-feedback PDFs, purchases and editable backups in Servifolio for iPhone.">
   <title>Servifolio Support</title>
   <style>
     :root { color-scheme: light; --paper: #f5f5f0; --ink: #243b30; --muted: #5d6b62; --green: #295242; --line: #d9dfd9; }
@@ -44,10 +44,11 @@
     <section id="english" aria-labelledby="support-title">
       <h1 id="support-title">Support</h1>
       <p class="intro">Turn your work photos into a clear report for your client.</p>
-      <p>Create a report, add photos by room or area, and enter your notes. Preview the PDF, then save it to Files or share it using the iOS share sheet. A finished example is available when you first open the app and in the three-dot options menu.</p>
+      <p>Create a report, add photos by room or area, and enter your notes. Carry unresolved items into linked visits, keep earlier references separate from this visit’s evidence, and collect feedback through a returnable PDF. Preview before saving or sharing through the iOS share sheet. A finished example is available when you first open the app and in the three-dot options menu.</p>
+      <p class="date">Updated November 13, 2026</p>
       <details open>
         <summary>How do I add photos and create a PDF?</summary>
-        <p>Open a report and add photos using the camera, Photos or Files. In each area, you can add notes, choose a status, and label photos Before, After or Photo. Add at least one photo, then open the PDF preview. Use Save PDF or Share to choose a destination.</p>
+        <p>Open a report and add photos using the camera, Photos or Files. In each area, add notes, choose a status, and label photos Before, After or Photo. A standard photo report needs a photo. A follow-up can explicitly document missing current evidence in text instead of presenting an older photo as new work. Review the PDF before using Save PDF or Share to choose a destination.</p>
       </details>
       <details>
         <summary>A photo will not import or a PDF will not open.</summary>
@@ -63,7 +64,7 @@
       </details>
       <details>
         <summary>How do I start another visit at the same property?</summary>
-        <p>Open the existing report, open its three-dot options menu, then New visit. The new report reuses the client, address and area names. Add the new visit's photos and notes, then review its service date before exporting.</p>
+        <p>Open the existing report, open its three-dot options menu, then New visit. The new report is linked to its actual earlier visit and reuses the client, address and area names. Unresolved items carry their explanation and independent reference-photo copies; resolved items stop carrying. Review the service date, add this visit’s evidence and explicitly record the result or why an item was not treated. Adding a photo does not resolve an item automatically. Earlier reports and saved PDFs keep their original contents.</p>
       </details>
       <details>
         <summary>How do I organize or recover reports?</summary>
@@ -73,12 +74,12 @@
       <details>
         <summary>How do I move editable reports to another iPhone?</summary>
         <p>Open Settings, choose Save a backup, and save the .photoreport file to Files. On the other iPhone, install Servifolio, open Settings, and choose Restore a backup. You can also open a .photoreport file from Files.</p>
-        <p>A PDF is a shareable snapshot. A .photoreport backup contains the editable reports, photos and saved PDF versions. Save a recent backup before changing devices or deleting the app.</p>
+        <p>A PDF is a shareable snapshot. A .photoreport backup contains editable reports, photos and reference copies, linked visits, saved PDF versions, frozen feedback requests, returned files and saved feedback. Save a recent backup before changing devices or deleting the app. Keep a pre-upgrade backup too: an older app cannot safely open newly upgraded records, and returning to it requires restoring that earlier backup.</p>
       </details>
       <details>
         <summary>What can I use for free?</summary>
         <p>Editing and PDF previews are free. Your first three non-sample reports are free to save and share. Each unlocked report can be updated and resent, counting as one report across its exports. Exploring and exporting the built-in sample is free.</p>
-        <p>Exporting further new reports requires Pro. A cancelled or failed export preserves the free allowance. Creating a New visit creates a new report.</p>
+        <p>Exporting further new reports requires Pro. A cancelled or failed export preserves the free allowance. Creating a New visit creates a new report. A feedback PDF belongs to its report and follows the same export-access rules; importing feedback does not unlock another report. Already-unlocked reports can still be revised and resent, even after annual Pro expires.</p>
       </details>
       <details>
         <summary>How do Pro purchases and restoration work?</summary>
@@ -95,16 +96,30 @@
         <summary>How do I change the language?</summary>
         <p>In Settings, open Language. The default follows your system. You can choose English (United States), English (United Kingdom), Simplified Chinese or Traditional Chinese. New report labels and newly generated PDFs follow the chosen app language. Your own text and previously saved PDF versions keep their contents.</p>
       </details>
+      <details>
+        <summary>What counts as this visit’s evidence?</summary>
+        <p>Review the earlier reference and this visit’s evidence separately. The app compares the current photo selected for a follow-up with that item’s stored reference file. If those stored files are byte-for-byte identical, it discloses reference-photo reuse and requires an explanation before a resolved result can use it. Missing current images are disclosed. A different file or its capture date does not prove a new capture, authenticity or completed work; you choose the status and explanation yourself.</p>
+      </details>
+      <details>
+        <summary>How can a client return feedback in a PDF?</summary>
+        <p>Prepare a fillable feedback PDF for the report and choose how to send it. The request keeps the original report, item context and PDF version frozen in your local library. The recipient can fill the text fields and save a copy in a compatible PDF reader, then return it using a method you both choose. Servifolio does not send or collect it through a developer server.</p>
+        <p>Import the returned PDF locally and preview its known feedback fields against the issued version. Review older-version responses in their original context, save explicitly, and choose which feedback becomes a follow-up. Importing or adding a photo does not resolve work or rewrite an earlier report. This is not a signature and the app does not authenticate who filled the file.</p>
+      </details>
+      <details>
+        <summary>The returned PDF has no editable fields.</summary>
+        <p>A reader may flatten the PDF or fail to save its fields. Keep the returned copy and use manual feedback entry against the original request when needed; review and choose follow-ups yourself. You may also ask the sender to save a copy that retains the form fields. A flattened file is not treated as successfully parsed feedback.</p>
+      </details>
       <h2>Contact</h2>
-      <p>Email <a href="mailto:xiangguoxin520@icloud.com">xiangguoxin520@icloud.com</a> with your iPhone model, iOS version, Servifolio version and the steps that led to the issue.</p>
+      <p>Email <a href="mailto:xiangguoxin520@icloud.com">xiangguoxin520@icloud.com</a> with your iPhone model, iOS version, Servifolio version and the steps that led to the issue. Include client details, reports or returned files only if you choose to share them for support and they are necessary.</p>
     </section>
     <section id="chinese" lang="zh-Hans" aria-labelledby="support-title-zh">
       <h2 id="support-title-zh">使用帮助</h2>
       <p class="intro">把工作照片整理成清楚的报告，交给客户。</p>
-      <p>新建报告，按房间或区域添加照片，再填写备注。预览 PDF 后，可保存到文件，或通过 iOS 分享面板发送。首次打开和首页的三点选项菜单中都可体验示例。</p>
+      <p>新建报告，按房间或区域添加照片和备注。连续到访可承接未处理事项，将此前参考照片与本次证据分开，并通过可回传 PDF 收集客户反馈。预览后再通过 iOS 分享面板保存或发送，首次打开和首页三点菜单中都可体验示例。</p>
+      <p class="date">更新日期：2026 年 11 月 13 日</p>
       <details>
         <summary>如何添加照片和生成 PDF</summary>
-        <p>打开报告，通过相机、相册或文件添加照片。每个区域都可填写备注、选择状态，并将照片标记为作业前、作业后或照片。加入至少一张照片后打开 PDF 预览，再选择保存 PDF 或分享。</p>
+        <p>打开报告，通过相机、相册或文件添加照片。每个区域都可填写备注、选择状态，并将照片标记为作业前、作业后或照片。普通照片报告需要照片；后续跟进也可用文字明确说明缺少本次证据，不会把旧图冒充新作业。请先查看 PDF，再选择保存 PDF 或分享。</p>
       </details>
       <details>
         <summary>照片导入失败或 PDF 无法打开</summary>
@@ -120,7 +135,7 @@
       </details>
       <details>
         <summary>同一地点下次服务如何继续记录</summary>
-        <p>打开已有报告，在三点选项菜单选择新建到访记录。新报告会沿用客户、地址和区域名称。加入本次照片和备注，导出前核对服务日期。</p>
+        <p>打开已有报告，在三点选项菜单选择新建到访记录。新报告会与实际来源到访关联，并沿用客户、地址和区域名称。未解决事项会承接原说明及独立的参考照片副本；已解决事项不再承接。核对服务日期、添加本次证据，再由你明确填写结果或未处理原因，添加照片不会自动解决事项。旧报告及已保存 PDF 的原内容会保留。</p>
       </details>
       <details>
         <summary>如何整理和恢复报告</summary>
@@ -130,12 +145,12 @@
       <details>
         <summary>如何将可编辑报告转到另一部 iPhone</summary>
         <p>进入设置，选择保存备份，将 .photoreport 文件保存到文件 App。在另一部 iPhone 安装 Servifolio 后，进入设置，选择恢复备份。也可以从文件 App 打开 .photoreport 文件。</p>
-        <p>PDF 保存供分享的报告版本，.photoreport 备份保存可继续编辑的报告、照片和 PDF 历史版本。换设备或删除 App 前，请保存一份最新备份。</p>
+        <p>PDF 保存供分享的报告版本。.photoreport 备份包含可编辑报告、照片和参考副本、连续到访关联、PDF 历史版本、冻结的反馈请求、回传文件及已保存反馈。换设备或删除 App 前，请保存最新备份；升级前也要另存备份。旧版 App 无法安全打开升级后的记录，返回旧版需要恢复升级前备份。</p>
       </details>
       <details>
         <summary>哪些功能可以免费使用</summary>
         <p>编辑和 PDF 预览免费，前三份正式报告可免费保存、分享。同一份已解锁报告可继续修改和补发，合计只计一份，内置示例可免费体验和导出。</p>
-        <p>后续新报告的导出需要 Pro。取消或失败的导出会保留免费额度。新建到访记录会建立一份新报告。</p>
+        <p>后续新报告的导出需要 Pro。取消或失败的导出会保留免费额度。新建到访记录会建立一份新报告。反馈 PDF 归属其原报告并遵守相同导出权益规则，导入反馈不会解锁其他报告。已解锁报告即使在年费 Pro 到期后，也可继续修改补发。</p>
       </details>
       <details>
         <summary>Pro 如何购买和恢复</summary>
@@ -152,8 +167,21 @@
         <summary>如何切换语言</summary>
         <p>在设置中打开语言。默认跟随系统，也可选择美式英语、英式英语、简体中文或繁体中文。新报告标签和新生成的 PDF 使用所选 App 语言，你填写的文字及已保存 PDF 的内容会保留。</p>
       </details>
+      <details>
+        <summary>什么算本次到访证据</summary>
+        <p>此前参考照片与本次证据分开查看。App 比较该事项所选本次照片与其已保存的参考文件；这两个文件的字节完全相同时，会披露为参考照片复用。若将事项标为已解决，需先填写复用说明。缺少本次图片也会明确披露。不同文件或拍摄日期不能证明新拍摄、真伪或工作完成，状态与说明由你人工选择。</p>
+      </details>
+      <details>
+        <summary>客户如何通过 PDF 回传反馈</summary>
+        <p>为报告准备可填写反馈 PDF，自行选择发送方式。请求会将原报告、事项背景和 PDF 版本冻结保存在本机库中。收件人可在兼容的 PDF 阅读器中填写文本框、保存副本，再按双方选择的方式回传；Servifolio 不会通过开发者服务器发送或收集文件。</p>
+        <p>在本地导入回传 PDF，对照发出时的版本预览已知反馈字段。旧版本反馈保留其原背景，需明确保存，再人工选择哪些反馈转为后续待办。导入或添加照片不会自动解决事项，也不会改写旧报告。它不是签名，App 也不会认证填表人的身份。</p>
+      </details>
+      <details>
+        <summary>回传 PDF 没有可编辑字段怎么办</summary>
+        <p>阅读器可能将 PDF 扁平化，或未保存填写字段。请保留回传副本，需要时对照原请求手动录入反馈，再自行审核和选择待办；也可请对方保存保留表单字段的副本。扁平化文件不会被当作已成功自动解析的反馈。</p>
+      </details>
       <h3>联系我们</h3>
-      <p>请将 iPhone 型号、iOS 版本、Servifolio 版本和出现问题的操作步骤发送至 <a href="mailto:xiangguoxin520@icloud.com">xiangguoxin520@icloud.com</a>。</p>
+      <p>请将 iPhone 型号、iOS 版本、Servifolio 版本和问题步骤发送至 <a href="mailto:xiangguoxin520@icloud.com">xiangguoxin520@icloud.com</a>。仅在你选择为支持提供且确有必要时，附上客户资料、报告或回传文件。</p>
     </section>
     <footer>
       <p><a href="privacy.html">Privacy policy / 隐私政策</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of use / 使用条款</a></p>
